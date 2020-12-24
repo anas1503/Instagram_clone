@@ -1,5 +1,5 @@
 import React from 'react'
-import pp1 from './assets/pp1.jpg'
+import pp1 from '../assets/pp1.jpg'
 import UserSuggestion from './UserSuggestion'
 import SuggestionFooter from './SuggestionFooter'
 

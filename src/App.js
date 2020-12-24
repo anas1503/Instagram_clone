@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from './Header'
-import Stories from './Stories'
-import Post from './Post'
-import Suggestions from './Suggestions'
-import DarkMode from './DarkMode'
-import UserData from './UserData'
+import Header from './components/Header'
+import Stories from './components/Stories'
+import Post from './components/Post'
+import Suggestions from './components/Suggestions'
+import DarkMode from './components/DarkMode'
+import UserData from './components/UserData'
 import './App.css'
 
 

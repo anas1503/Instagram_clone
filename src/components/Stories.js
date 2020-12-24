@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from './assets/download.jpg'
-import Pic2 from './assets/self.jpg'
-import Pic3 from './assets/pp.jpg'
-import Pic4 from './assets/B&W.jpg'
-import Pic6 from './assets/me.jpg'
-import Pic7 from './assets/dp.jpg'
+import logo from '../assets/download.jpg'
+import Pic2 from '../assets/self.jpg'
+import Pic3 from '../assets/pp.jpg'
+import Pic4 from '../assets/B&W.jpg'
+import Pic6 from '../assets/me.jpg'
+import Pic7 from '../assets/dp.jpg'
 import Story from './Story'
-import Pic8 from './assets/anas.jpg'
+import Pic8 from '../assets/anas.jpg'
 
 const Stories = () => {
     return (   
