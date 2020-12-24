@@ -7,7 +7,6 @@ const DarkTheme= () =>{
       
     document.body.style.background="rgb(17, 17, 17)";
     document.getElementById("new_following").style.backgroundColor="rgb(17, 17, 17)";
-    document.getElementById("navigation").style.backgroundColor="#fafafa";
     document.getElementById("status").style.backgroundColor="rgb(17, 17, 17)";
     document.getElementById("status").style.color="white";
     document.getElementById("theme").innerHTML="Default mode";
@@ -18,12 +17,26 @@ const DarkTheme= () =>{
     document.getElementById("Switch").style.background="rgb(17, 17, 17)";
 
 }
+
+const DefaultMode=() =>{
+      
+    document.body.style.background="#fafafa";
+    document.getElementById("new_following").style.backgroundColor="#fafafa";
+    document.getElementById("status").style.backgroundColor="white";
+    document.getElementById("status").style.color="black";
+    document.getElementById("theme").innerHTML="Dark Mode";
+    document.getElementById("navigation").style.background="#fff";
+    document.getElementById("navigation").style.color="black";
+    document.getElementById("search").style.color="black";
+    document.getElementById("userInfo").style.background="#fafafa";
+    document.getElementById("Switch").style.background="#fafafa";
+}
  const DarkMode = () => {
 
   
     return (
         <>
-             <button onClick={DarkTheme} id="theme" className="DarkTheme">Dark Mode</button>
+             <button onClick={DarkTheme} onDoubleClick={DefaultMode} id="theme" className="DarkTheme">Dark Mode</button>
         </>
     )
 }
