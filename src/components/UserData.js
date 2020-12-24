@@ -1,4 +1,5 @@
 import post1 from '../assets/teamConts.jpg'
+import post2 from '../assets/conts4.JPG'
 import snr1 from '../assets/3yr-1.jpeg'
 import snr2 from '../assets/3yr-2.jpeg'
 import snr3 from '../assets/3yr-3.jpeg'
@@ -20,6 +21,13 @@ const UserData=[
         caption:" LEARN | IMPROVISE | GROW ",
         username_url:"https://www.instagram.com/conatus.akg/",
         pic:post1
+    },
+    
+    {
+        username:" team-conatus ",
+        caption:" ...many more to come! ",
+        username_url:"https://www.instagram.com/conatus.akg/",
+        pic:post2
     },
 
     {
