@@ -9,7 +9,7 @@ import HomeIcon from '@material-ui/icons/Home';
 export const Icons = () => {
     return (
         <>
-            <SearchIcon fontSize="small" className="input_icon"/>
+            <SearchIcon fontSize="small" className="input_icon" id="search"/>
          <div className="icon-container">
          <HomeIcon fontSize="default" className="Icons" />   
         <TelegramIcon fontSize="default" className="Icons" />

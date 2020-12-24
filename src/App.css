@@ -223,9 +223,13 @@ border-bottom:1px solid slategrey;
   top: 12.7%;
 }
 
+#userInfo
+{
+  background-color: #fafafa;
+
+}
 .user_info{
   display: flex;
-  background-color: #fafafa;
   justify-content: center;
   align-items: center;
 
@@ -240,10 +244,13 @@ border-bottom:1px solid slategrey;
   margin-top: 4px;
   color:rgb(128, 127, 127)}
 
+  #Switch{
+    background-color: #fafafa;
+
+  }
 .switch{
   margin-left: 25%;
   border: none;
-  background-color: #fafafa;
   cursor: pointer;
   width: 2.5rem;
   height: 4rem;
