@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from './Header'
+import Stories from './Stories'
+import Post from './Post'
+import Suggestions from './Suggestions'
+import DarkMode from './DarkMode'
+import UserData from './UserData'
+import './App.css'
 
-function App() {
+
+
+const App = () => {
+
+  const posts = UserData.map((item,i) => {
+    return <Post
+    key={i}
+      username={item.username}
+      caption={item.caption}
+      username_url={item.username_url}
+      post={item.pic}
+    />
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <Header />
+      <DarkMode />
+      <Suggestions />
+      <Stories />
+      {posts}
+
+
     </div>
-  );
+
+
+
+
+
+  )
 }
 
+
 export default App;
+
