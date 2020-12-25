@@ -11,9 +11,9 @@ import './App.css'
 
 const App = () => {
 
-  const posts = UserData.map((item,i) => {
+  const posts = UserData.map((item, i) => {
     return <Post
-    key={i}
+      key={i}
       username={item.username}
       caption={item.caption}
       username_url={item.username_url}

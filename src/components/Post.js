@@ -20,23 +20,23 @@ const Post = (props) => {
             <img src={props.post} alt="post" className="post" />
 
             <div className="post-responses">
-              <FavoriteBorderIcon className="response"/>
-              <ChatBubbleOutlineSharpIcon className="response" />
-              <TelegramIcon className="response" />
-              <BookmarkBorderIcon fontSize="default" className="save" />
+                <FavoriteBorderIcon className="response" />
+                <ChatBubbleOutlineSharpIcon className="response" />
+                <TelegramIcon className="response" />
+                <BookmarkBorderIcon fontSize="default" className="save" />
             </div>
 
-            <p className="post-status">Liked by <span style={{fontWeight:"bold"}}>Follower_name</span> and others</p>
+            <p className="post-status">Liked by <span style={{ fontWeight: "bold" }}>Follower_name</span> and others</p>
             <p className="caption"><a href={props.username_url} className="caption-user">{props.username}</a>{props.caption}</p>
-     
-             <p className="comments">View all comments</p>
+
+            <p className="comments">View all comments</p>
             <p className="post-time">5 DAYS AGO</p>
 
             <div className="comment-section">
                 <p className="comment">Add a comment...</p>
                 <h4 className="post-comment">Post</h4>
             </div>
-   
+
 
         </div>
     )

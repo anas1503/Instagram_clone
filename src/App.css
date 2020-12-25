@@ -345,11 +345,7 @@ font-weight: bold;
 
 
 
-@media only screen and (max-width: 1024px) {
-  .main{
-     justify-content: center !important;
- }
-} 
+
 
 
 @media only screen and (max-width: 640px) {
@@ -368,15 +364,13 @@ font-weight: bold;
      background-color: #fff;
    }
 
+   #new_following {
+    display: none;
+  }
  }
 
 
 
-@media only screen and (max-width: 1024px) {
- #new_following {
-   display: none;
- }
-}
 
 
 @media only screen and (max-width: 500px) {

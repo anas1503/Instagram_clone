@@ -2,13 +2,13 @@ import React from 'react'
 
 
 
- const Story = (props) => {
+const Story = (props) => {
     return (
         <div className="story">
-                    <img src={props.url} alt="story" className="user" />
-                    <p>user_name</p>
-                </div>
-                
+            <img src={props.url} alt="story" className="user" />
+            <p>user_name</p>
+        </div>
+
     )
 }
 
