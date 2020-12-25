@@ -81,8 +81,8 @@ input{
   width: 42%;
   height:7.5rem;
   display: flex;
-  justify-content:space-evenly;
-  align-items: stretch;
+  justify-content:space-between;
+  align-items: center;
   overflow-x:scroll;
   overflow-y:hidden;
   border:1px solid silver;
@@ -103,7 +103,7 @@ input{
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  margin:0.5rem;
+  margin:0.6rem;
   border: 2px solid rgb(129, 23, 23);
 }
 
@@ -342,3 +342,80 @@ font-weight: bold;
 .DarkTheme:hover{
   background-color: black;
 }
+
+
+
+@media only screen and (max-width: 1024px) {
+  .main{
+     justify-content: center !important;
+ }
+} 
+
+
+@media only screen and (max-width: 640px) {
+ .post_container{
+   border: none;
+   margin-bottom: 0.75em;
+   width: 100%;
+   height: 715px;
+   margin:0;
+ }
+
+   .comment-section {
+     display: none;
+     
+   }
+
+ }
+
+
+
+@media only screen and (max-width: 1024px) {
+ #new_following {
+   display: none;
+ }
+}
+
+
+@media only screen and (max-width: 500px) {
+ .place_icon
+  {
+   display: none ;
+ }
+ #search{
+   display: none;
+   color:white;
+ }
+ .header{
+   width: 100%;
+   padding-left: 0.5rem;
+ }
+ .icon-container{
+   margin-left: 8rem;
+ }
+ .Icons{
+   margin:3% 3% 3% 2%;
+ }
+ .post{
+   height: 70vh;
+   width: 100%;
+ }
+
+ .stories{
+   width: 100%;
+   margin:14% 0 0 0%;
+ }
+ .option{
+  position: absolute;
+  left:90%;
+ }
+
+ .save{
+  position: relative;
+  left:66%;
+ }
+
+ #theme{
+   display: none;
+ }
+} 

@@ -14,6 +14,14 @@ import snr11 from '../assets/4yr-6.jpeg'
 import snr12 from '../assets/4yr-7.jpeg'
 import me from '../assets/self.jpg'
 import snr14 from '../assets/4yr-9.jpeg'
+import arpit from '../assets/arpit.jpeg'
+import chirag from '../assets/chirag.jpeg'
+import chetna from '../assets/chetna.jpeg'
+import garima from '../assets/garima.jpeg'
+import shivam from '../assets/shivam.jpeg'
+import sparsh from '../assets/sparsh.jpeg'
+import sudheer from '../assets/sudheer.jpeg'
+
 const UserData=[
    
     {
@@ -133,6 +141,55 @@ const UserData=[
         caption:"A Web Developer.. ",
         username_url:"https://www.instagram.com/anwer.anas19/",
         pic:me
+
+    },    
+    {
+        username:" arpit8307 ",
+        caption:"A Web Developer.. ",
+        username_url:"https://www.instagram.com/arpit8307/",
+        pic:arpit
+
+    },    
+    {
+        username:" chirag_agrawal112 ",
+        caption:"A Web Developer.. ",
+        username_url:"https://www.instagram.com/chirag_agrawal112/",
+        pic:chirag
+
+    },    
+    {
+        username:" chetna_1001 ",
+        caption:"A Web Developer.. ",
+        username_url:"https://www.instagram.com/chetna_1001/",
+        pic:chetna
+
+    },    
+    {
+        username:" mittal_garima_100 ",
+        caption:"A Web Developer.. ",
+        username_url:"https://www.instagram.com/mittal_garima_100/",
+        pic:garima
+
+    },    
+    {
+        username:" shivamgupta1281",
+        caption:"A Web Developer.. ",
+        username_url:"https://www.instagram.com/shivamgupta1281/",
+        pic:shivam
+
+    },    
+    {
+        username:" sparsh_119 ",
+        caption:"A Web Developer.. ",
+        username_url:"https://www.instagram.com/sparsh_119/",
+        pic:sparsh
+
+    },    
+    {
+        username:" mr.mister1007 ",
+        caption:"A Web Developer.. ",
+        username_url:"https://www.instagram.com/ mr.mister1007/",
+        pic:sudheer
 
     },    
 ]

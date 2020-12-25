@@ -12,11 +12,11 @@ const Stories = () => {
     return (   
             <div className="stories" id="status">
 
-             <Story url={Pic8} />
-             <Story url={Pic8} />
-             <Story url={Pic8} />
              <Story url={logo} />
              <Story url={Pic2} />
+             <Story url={Pic8} />
+             <Story url={Pic3} />
+             <Story url={Pic6} />
              <Story url={Pic8} />
              <Story url={Pic2} />
              <Story url={Pic4} />
@@ -25,7 +25,7 @@ const Stories = () => {
              <Story url={Pic4} />
              <Story url={Pic6} />
              <Story url={Pic7} />
-             <Story url={Pic8} />
+             {/* <Story url={Pic8} /> */}
              
             
             </div>
