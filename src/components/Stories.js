@@ -25,7 +25,7 @@ const Stories = () => {
             <Story url={Pic4} />
             <Story url={Pic6} />
             <Story url={Pic7} />
-            {/* <Story url={Pic8} /> */}
+          
 
 
         </div>

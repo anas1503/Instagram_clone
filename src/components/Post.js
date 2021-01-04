@@ -1,5 +1,5 @@
 import React from 'react'
-// import Pic1 from './assets/pp1.jpg'
+
 
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
@@ -9,6 +9,16 @@ import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
 
 
 const Post = (props) => {
+
+    const liked= () =>{
+        document.getElementById("like").style.color="red";
+    }
+
+    const unliked=() =>{
+        document.getElementById("like").style.color="#000";
+    }
+
+     
     return (
         <div className="post_container">
             <div className="post-header">
@@ -17,10 +27,10 @@ const Post = (props) => {
                 <MoreHorizIcon className="option" fontSize="default" />
             </div>
 
-            <img src={props.post} alt="post" className="post" />
+            <img onClick={unliked} onDoubleClick={liked} src={props.post} alt="post" className="post" />
 
-            <div className="post-responses">
-                <FavoriteBorderIcon className="response" />
+            <div className="post-responses" like>
+                <FavoriteBorderIcon onClick={unliked} id="like" className="response" />
                 <ChatBubbleOutlineSharpIcon className="response" />
                 <TelegramIcon className="response" />
                 <BookmarkBorderIcon fontSize="default" className="save" />

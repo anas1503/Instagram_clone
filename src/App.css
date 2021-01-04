@@ -28,6 +28,7 @@ body{
    padding-left: 20rem;
    position: fixed;
    top:0;
+   z-index: 1;
 
 }
 
@@ -337,6 +338,8 @@ font-weight: bold;
   border: none;
   font-weight: bold;
   transition:0.4s ease-in ;
+  outline:none;
+  z-index: 1;
 
 }
 .DarkTheme:hover{
